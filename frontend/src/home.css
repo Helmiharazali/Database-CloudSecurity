@@ -1,0 +1,30 @@
+html, body {
+    min-height: 100%; /* Ensure body and html expand dynamically */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    background-image: url('./image.jpg'); /* background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; /* Wrapper also adapts to content size */
+    justify-content: center; /* Ensure content stays centered */
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
